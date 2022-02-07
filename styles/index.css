@@ -136,8 +136,24 @@ p {
   height: 50px;
 }
 
+.validation__section {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #2F281E;
+  width: 539px;
+  height: 108px;
+}
+
 h4 {
-  font-family: Poppins;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -145,8 +161,7 @@ h4 {
   color: #2F281E;
 }
 
-.icon__text {
-  font-family: Poppins;
+.text {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -154,4 +169,81 @@ h4 {
   color: #544837;
   width: 240px;
   height: 52px;
+}
+
+.text--under {
+  max-width: 486px;
+  width: 100%;
+}
+
+.text--info {
+  margin-top: 22px;
+  width: 486px;
+}
+
+.text--heading {
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  width: 486px;
+}
+
+.heading--two {
+  display: flex;
+}
+
+.img__pointing {
+  width: 520px;
+  height: 574px;
+}
+
+.img__computer {
+  width: 521px;
+  height: 535px;
+}
+
+.img__icon {
+  width: 35px;
+  height: 35px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+.logo__two {
+  width: 185px;
+  height: 32px;
+}
+
+.list__div {
+  display: flex;
+  margin-left: 126px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+}
+
+.btn--signupnow {
+  width: 131px;
+  height: 39px;
+  background-color: #FF9900;
+  color: #ffffff;
+  border: none;
+}
+
+.input__div {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 325px;
+  height: 48px;
+  border: 2px solid #BCD0E5;
+  margin: 340px 131px 21px 82px;
 }
