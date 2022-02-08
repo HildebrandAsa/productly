@@ -58,7 +58,7 @@ ul {
 header {
   display: flex;
   margin: 113px 3px 243px 145px;
-  width: 100%;
+  width: auto;
 }
 
 .header__text__section {
@@ -157,7 +157,7 @@ p {
 .main__info__section {
   display: flex;
   margin: 113px 3px 104px 145px;
-  width: 100%;
+  width: auto;
 }
 
 .main__text__section {
